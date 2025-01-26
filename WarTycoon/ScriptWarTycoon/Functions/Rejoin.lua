@@ -71,7 +71,7 @@ function Fun.Create(title)
     Shadow.BackgroundTransparency = 1.000
     Shadow.Position = UDim2.new(0.349795759, 0, 0.171759665, 0)
     Shadow.Size = UDim2.new(0, 525, 0, 468)
-    Shadow.Image = "http://www.roblox.com/asset/?id=6105530152"
+    Shadow.Image = ""
     Shadow.ImageColor3 = Color3.fromRGB(18, 18, 18)
 
     mainFrame.Name = "mainFrame"
