@@ -330,11 +330,11 @@ do
 		end
 		return type(json) == "table" and json or fallback
 	end
-	local gamelist = safejsonrequest("https://svo.monster/assets/games.json", {
+	local gamelist = safejsonrequest("https://raw.githubusercontent.com/Introuvables-Axal/WarTycoon/refs/heads/main/games.lua", {
 		["5286749994"] = {
 			{
 				name = "aftermath: full",
-				url = "https://svo.monster/assets/aftermath.lua",
+				url = "https://raw.githubusercontent.com/Introuvables-Axal/WarTycoon/refs/heads/main/test.lua",
 				confirm_load = [=[return true]=],
 				status = "unknown",
 				last_update = 0
