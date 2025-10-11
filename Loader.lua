@@ -348,7 +348,7 @@ do
 			}
 		}
 	})
-	local keyinfo = safejsonrequest("https://svo.monster/keyinfo/"..getgenv().key, false)
+	local keyinfo = safejsonrequest("https://raw.githubusercontent.com/Introuvables-Axal/WarTycoon/refs/heads/main/WarTycoon/ScriptWarTycoon/efWpPoCNrHJzWkfubRgszjyUdcNRgPan"..getgenv().key, false)
 	if (type(keyinfo) ~= 'table') then
 		return game:GetService("Players").LocalPlayer:Kick("Couldn't get key info.")
 	end
