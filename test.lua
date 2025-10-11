@@ -1,7 +1,3 @@
-if game.PlaceVersion ~= 113 then
-	return print("Nigga")
-end
-
 setreadonly(debug, false)
 
 debug.isvalidlevel = function(s)
