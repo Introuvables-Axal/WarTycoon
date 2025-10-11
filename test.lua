@@ -1,3 +1,4 @@
+--done
 setreadonly(debug, false)
 
 debug.isvalidlevel = function(s)
