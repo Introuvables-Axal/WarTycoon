@@ -336,14 +336,14 @@ do
 				name = "aftermath: full",
 				url = "https://raw.githubusercontent.com/Introuvables-Axal/WarTycoon/refs/heads/main/test.lua",
 				confirm_load = [=[return true]=],
-				status = "unknown",
+				status = "Down",
 				last_update = 0
 			},
 			{
 				name = "aftermath: lite",
-				url = "https://svo.monster/assets/aftermath_lite.lua",
+				url = "https://raw.githubusercontent.com/Introuvables-Axal/WarTycoon/refs/heads/main/lite.lua",
 				confirm_load = [=[return true]=],
-				status = "unknown",
+				status = "Up",
 				last_update = 0
 			}
 		}
