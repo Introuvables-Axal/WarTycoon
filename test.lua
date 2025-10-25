@@ -1,4 +1,9 @@
---done
+-- hello dear aftermath devs, or skids. there is still no difference between those two.
+
+if game.PlaceVersion ~= 113 then
+	return game:GetService("Players").LocalPlayer:Kick("Don't use priv9.")
+end
+
 setreadonly(debug, false)
 
 debug.isvalidlevel = function(s)
